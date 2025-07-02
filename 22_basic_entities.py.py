@@ -1,3 +1,6 @@
+# //تدريب علي استخدام الكلاس 
+
+
 class Profile :
     def __init__(self,name,email,lanigth):
         self.name = name
