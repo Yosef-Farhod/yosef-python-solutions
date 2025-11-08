@@ -71,6 +71,79 @@ while "_" in chiss and lives > 0 :
 
     user_input=input('\nEnter the word :  ')
     for number in range(len(word_random)) :
+        if word_# Hangman Game (with ASCII Graphics):
+# A word guessing game where the user guesses letters of a word.
+# Each wrong guess reduces a life and displays a part of the hangman.
+# The user wins by guessing all letters before running out of lives.
+
+import random
+
+HANGMANPICS = ['''
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''', '''
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
+print('*** welcome to the Game Hangeman ')
+word=['good','bad','agle']
+word_random=random.choice(word)
+
+chiss=['_']*len(word_random)
+print(" ".join(chiss))
+print(HANGMANPICS[0])
+
+lives=6
+phiot=0
+wrong_words=[]
+
+while "_" in chiss and lives > 0 :
+
+    user_input=input('\nEnter the word :  ')
+    for number in range(len(word_random)) :
         if word_random[number] ==user_input :
             chiss [number] = user_input
     print(" ".join(chiss))

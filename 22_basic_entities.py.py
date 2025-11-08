@@ -8,6 +8,16 @@ class Profile :
         self.lanigth = lanigth
 
 Ahmed = Profile("yosef","Yosef@gmail.com","Ardic")
+Tito = Profile("Tito","Tito@gmail.com","English")# //تدريب علي استخدام الكلاس 
+
+
+class Profile :
+    def __init__(self,name,email,lanigth):
+        self.name = name
+        self.email = email
+        self.lanigth = lanigth
+
+Ahmed = Profile("yosef","Yosef@gmail.com","Ardic")
 Tito = Profile("Tito","Tito@gmail.com","English")
 print(Ahmed.name)
 
