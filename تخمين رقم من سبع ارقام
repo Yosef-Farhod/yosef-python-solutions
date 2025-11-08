@@ -1,0 +1,15 @@
+
+
+import random
+y=random.randint(1000,9999)
+
+a=int(input("Enter a 4 digit number:"))
+if len(str(a))==4 :
+  if a==y :
+    print("you win")
+  else:
+    print("you lose")
+    print(f"the computer generated this number{y}")
+
+else :
+  print('pleas enter a 4 digit number')

@@ -1,0 +1,8 @@
+print ('welcom to ( "whose wallet")')
+a1=input('you will give me a list of names, and I will pick a person to pay if you are ready, enter the names separated by a comma: ')
+a=a1.split(', ')
+b=len(a)
+import random
+c=random.randint(0,b)
+d=len
+print(f"please ask( {a[c]} ) to take his wallet out. Dinner is to him")

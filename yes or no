@@ -1,0 +1,12 @@
+result =input("Choose one of the three (yes.no or maybe):\n")
+y= 'yes'
+n='no'
+M='maybe'
+if result== y :
+  print('you choos yes')
+elif result== n :
+  print('you choos no ')
+elif result == M :
+  print ('you choos maybe')
+else:
+  print('Please choose an answer from the options ')

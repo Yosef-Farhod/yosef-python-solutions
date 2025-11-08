@@ -1,0 +1,7 @@
+# لنشلء تعديل ب استخدام نانوا 
+user_pass=input("Entar your password pleas:\n")
+sck_pass="Yosef"
+if user_pass==sck_pass:
+  print("Welcame Yosef")
+else:
+  print("The password is wrong .Retype password  please")

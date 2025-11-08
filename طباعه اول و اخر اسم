@@ -1,0 +1,3 @@
+ff=['Ahmad','mostfa','Hossam','zezo','mohada']
+print( 'welcome to\n the farst naeme in lest{ '+ff[0]+' } the last neam in lest {'+ ff[-1] + ' }' )
+

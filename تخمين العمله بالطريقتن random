@@ -1,0 +1,32 @@
+import random
+a = random.randint(1,10)
+b= random.random()
+
+print( 'welcome to the coin Guessing  Game!:')
+print("""choose a method to toss the coin:
+1. Using random.random()
+2. Using random.randint()
+
+""")
+u=input('Enter your choice (1 or 2):\n')
+if u=='1' :
+  c=input('Enter your Guess (Heads or Tails):').lower()
+  if c=='heads' and b>=0.5:
+    print(' congratulations! you won!')
+  elif c=='tails' and b<0.5:
+    print ('congratulations! you won!')
+  else:
+    print('sorry you last')
+  
+elif u=='2':
+
+  k=input('Enter your Guess (Heads or Tails):').lower()
+  if k=='heads' and a>5 :
+    print("congratulations! you won !")
+  elif k== 'tails' and a<5 :
+    print('congratulations! you won!')
+  else : 
+    print ('sorry you lost ')
+    
+else:
+  print('Invaut choice. plecse select either 1 or 2.')

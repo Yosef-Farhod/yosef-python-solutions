@@ -1,0 +1,50 @@
+# اكتب كتابك الاول
+a=[]
+a1= input('Enter the name of a book you own:')
+#اكتب كتاب تاني 
+a2=input("enter the name of another book you own (or press 'enter' to skip) :")
+a.append(a1)
+if a2 :
+  a.append(a2)
+  print(f"your library : {a}")
+else :
+  print(f"your library : {a}")
+  
+#تطبع الاكتب الاةل و الثلني 
+#اكتب اسم كتاب عايز تجيبه في المستقبل 
+b=[]
+b1= input('Enter the name of a book with to have in the future:')
+
+#اكتب اسم كتاب تاني عايز تجيبه في المستقبل او ممكن تعمل اسكب
+b2= input('Enter the name of another book you own ( or press "Enter"to skip) : ')
+b.append(b1)
+if b2 :
+  b.append(b2)
+  print(f"your wishlist : {b}")
+
+else :
+  print(f"your wishlist :{b}")
+
+#اسم الكتب اللي عايز تجيبها في المستقبل هي الاول و الثاني 
+#اكتب اسم كتاب انت جبته او ممكن تعمل اسكب
+c=input("Enter the name of your a book from your withlest that you 've acqured(or prass 'Enter'to skip) :")
+if c in b :
+  a.append(c)
+  b.remove(c)
+  print(f"update to library: {a}")
+  print(f"update withlast : {b}")
+        
+else :
+ a
+#مكتبتي دلوقتي فيها الكتب اللي معايا + اللي جبتها 
+
+#قائمه للكتب اللي مجبتهاش
+#ا
+ #كتب اسم كتاب عارز تتبرع بيه او ممكن تعمل اسك
+d=input ("Enter the name of a book from to library your with to donate  (or please 'Enter' to skip)")
+if d in a :
+ a.remove(d) 
+ print (f"finl library ofter Donations :{a} ")
+#قائمه للكتب اللي في المكتبه دلوقتي end
+else :
+  print (f"finl library ofter Donations :{a} ")

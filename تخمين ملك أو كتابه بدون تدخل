@@ -1,0 +1,8 @@
+import random
+print( "Welcome to the violent coin toss game ")
+input ("presse enter to start...")
+r=random.random()
+if r>=0.5:
+  print("Heads")
+else:
+  print("Tails")
